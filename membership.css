@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    text-align: start;  
+    font-size: 30px;
+    width: 100%;
+    align-items: center;  
+    line-height: 70px;
+}
+
+.menu1 {
+    text-align: start;  
+    font-size: 25px;
+    width: 100%;
+    align-items: center;  
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1370px) {
+    .menu {  
+        font-size: 20px;
+        width: 100%;
+        line-height: 30px;
+    }
+    
+    .menu1 {
+        font-size: 15px;
+        width: 100%;         
+    }
+}
+
+@media only screen and (max-width: 361px){
+    .intro-text {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+}
+
+
+
+
+.accordion-button::after {    
+    -ms-transform: rotate(90deg);
+    transform: rotate(180deg);    
+}
+
+.accordion-button::after, .Aaccordion-button::before {
+    background: #ff4337;
+    content: icon;
+    background-image: url('photo/plus-solid.svg');
+    align-items: flex-end ;
+    height: 2px;
+    transition: transform 300ms,background 300ms,opacity 300ms;
+    width: 20px;
+}
+

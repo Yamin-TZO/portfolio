@@ -1,0 +1,10 @@
+#goMembership {
+  width: fit-content;  
+  height: 50px;
+  animation: mymove 5s infinite;
+  align-items: flex-start;
+  }
+  
+  @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px blue;}
+  }

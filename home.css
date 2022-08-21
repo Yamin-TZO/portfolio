@@ -1,6 +1,6 @@
-#goMembership {
+#casestudy {
   width: fit-content;  
-  height: 50px;
+  height: max-content;
   animation: mymove 5s infinite;
   align-items: flex-start;
   }

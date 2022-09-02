@@ -14,42 +14,17 @@
 </head>
 
 <body>
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-    <div class="container-fluid justify-content-between">
-      <a class="navbar-brand fs-2" href="#"> Yamin@Tris </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-        <ul class="nav navbar-nav ml-auto mb-2 mb-lg-0 gap-2 gap-sm-5 fs-4">
-          <li class="nav-item">
-            <a class="nav-link active home" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDarkDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="true">
-              Work
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">SAAS LMS Design</a></li>
-              <li><a class="dropdown-item" href="#">Message-based Learning Architecture</a></li>
-              <li><a class="dropdown-item" href="#">Web Design</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">About Me</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
   <div class="container-fluid">
     <div class="row g-0">
       <div class="col-lg-3 d-none d-lg-block">
         <nav class="navbar navbar-light bg-dark flex-column align-items-stretch p-3 sticky-top">
-          <a class="navbar-brand text-white" href="#">HOME</a>
+          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a class="nav-breadcrumb" href="home.html"> HOME </a></li>
+              <li class="breadcrumb-item nav-breadcrumb"><a class="nav-breadcrumb" href="home.html#work"> WORK </a></li>
+              <li class="breadcrumb-item active nav-breadcrumb" aria-current="page">SAAS LMS Design</li>
+            </ol>
+          </nav>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link menu text-white" href="#designing_title">Designing SASS LMS</a>
             <a class="nav-link menu text-white" href="#problem_title">Problem & Solution</a>
@@ -77,7 +52,7 @@
       </div>
       
       <div class="col-12 col-lg-9">
-        <div class="container" id="introduction">
+        <div class="container g-0" id="introduction">
           <h1 class="display-2">Introduction</h1>
           <div>
             <div class="intro-text">

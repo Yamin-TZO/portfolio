@@ -1,11 +1,15 @@
-h1 {
-    vertical-align: middle;
-    font-weight: bold;
-    line-height: 2rem;
+.accordion-button {
+    font-size: 3.5rem;
+    line-height: normal;
     margin-top: 20px;
     margin-bottom: 20px;
+    vertical-align: middle;
 }
 
+.navbar-nav-scroll {
+    max-height: var(--bs-scroll-height,100vh);
+    overflow-y: auto;
+}
 
 .nav-breadcrumb {
     text-decoration: none;
@@ -41,18 +45,18 @@ h1 {
     }
 }
 
-.accordion-button::after {    
-    -ms-transform: rotate(90deg);
-    transform: rotate(180deg);    
+@media only screen and (max-width: 768px) {
+
+    .accordion-button {
+        font-size: 1.5rem;
+        line-height: normal;
+    }
 }
 
-.accordion-button::after, .Aaccordion-button::before {
-    background: #ff4337;
-    content: icon;
-    background-image: url('photo/plus-solid.svg');
-    align-items: flex-end ;
-    height: 2px;
-    transition: transform 300ms,background 300ms,opacity 300ms;
-    width: 20px;
-}
+@media only screen and (max-width: 1714px) {
 
+    .accordion-button {
+        font-size: 2.3rem;
+        line-height: normal;
+    }
+}
